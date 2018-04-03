@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Banderas</title>
+	<style media="screen">
+		.bandera{
+			height: 150px;
+			width: 300px;
+			border: solid 1px black;
+			float: left;
+			
+			margin: 10px 20px 40px 10px;
+		}
+
+		
+		.espana {
+			height: 150px;
+			width: 300px;
+			background-color: yellow;
+			z-index: -1;
+		}
+
+		.rojo {
+			height: 150px;
+			width: 300px;
+			background-color: red; 
+			z-index: -1;
+
+		}
+		.circulo {
+     		width: 80px;
+     		height: 80px;
+     		-moz-border-radius: 50%;
+     		-webkit-border-radius: 50%;
+     		border-radius: 50%;
+     		background: red;
+     		position: relative;
+     		top: 35px;
+     		left: 110px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="bandera">
+		
+		<div class="espana"></div>
+		<div style="background-color: red; height: 40px; width: 300px; position: relative; top: -150px"></div>
+		<div style="background-color: red; height: 40px; width: 300px; position: relative; top: -80px"></div>
+		<p style="top: -80px; position: relative;">España</p>
+		</div>
+	
+	<div class="bandera">
+		<div class="rojo"></div>
+		<div style="background-color: white; height: 15px; width: 300px; position: relative;top:-80px"></div>
+		<div style="background-color: white; height: 150px; width: 15px; position: relative; top: -165px; left: 50px "></div>
+		<p style="top: -160px; position: relative;">Dinamarca</p>
+		</div>
+		
+	
+	<div class="bandera" style="clear: left">
+		<div class="rojo"></div>
+		<div style="background-color: green; height: 50px; width: 250px; position: relative;top: -150px; left: 50px"></div>
+		<div style="background-color: black; height: 50px; width: 250px; position: relative; left: 50px; top: -100px"></div>
+		<div style="background-color: white; height: 50px; width: 250px; position: relative; left: 50px; top: -200px"></div>
+		<p style="top: -150px; position: relative;">Emiratos Árabes</p>
+	</div>
+	
+	<div class="bandera">
+		<div class="circulo"></div>
+		<p style="top: 70px; position: relative;">Japón</p>
+	</div>
+	
+
+</body>
+</html>
